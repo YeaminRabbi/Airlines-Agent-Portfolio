@@ -15,5 +15,6 @@ export default {
     components: { HeaderSection, FooterSection },
     name: 'Master',
     
+    
 }
 </script>
