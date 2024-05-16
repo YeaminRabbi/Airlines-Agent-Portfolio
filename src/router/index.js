@@ -1,8 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/pages/Home.vue'
-import CityView from '../views/pages/City.vue'
-import ServiceView from '../views/pages/Service.vue'
+import AboutView from '../views/pages/About.vue'
 import ContactView from '../views/pages/Contact.vue'
+import VisitView from '../views/pages/visa_process/Visit.vue'
+import StudentView from '../views/pages/visa_process/Student.vue'
+import MedicalView from '../views/pages/visa_process/Medical.vue'
+import InstantView from '../views/pages/package_tour/Instant.vue'
+import GroupView from '../views/pages/package_tour/Group.vue'
 
 const routes = [
   {
@@ -11,14 +15,34 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/city',
-    name: 'City',
-    component: CityView
+    path: '/about',
+    name: 'About',
+    component: AboutView
   },
   {
-    path: '/service',
-    name: 'Service',
-    component: ServiceView
+    path: '/visa/visit',
+    name: 'Visit',
+    component: VisitView
+  },
+  {
+    path: '/visa/student',
+    name: 'Student',
+    component: StudentView
+  },
+  {
+    path: '/visa/medical',
+    name: 'Medical',
+    component: MedicalView
+  },
+  {
+    path: '/package/group-tour',
+    name: 'Group',
+    component: GroupView
+  },
+  {
+    path: '/package/instant-tour',
+    name: 'Instant',
+    component: InstantView
   },
   {
     path: '/contact',
