@@ -14,7 +14,7 @@
             <router-link class="nav-link" :to="{ name: 'About'}">About</router-link>
           </li>
           
-          <li class="nav-item dropdown" :class="{ active: $route.name === 'Visit' || $route.name === 'Medical' || $route.name === 'Student' }">
+          <li class="nav-item dropdown" >
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownVisa" role="button" @click="toggleDropdown('visa')" :aria-expanded="isVisaDropdownOpen ? 'true' : 'false'">
               Visa Process
             </a>
@@ -25,7 +25,7 @@
             </div>
           </li>
 
-          <li class="nav-item dropdown" :class="{ active: $route.name === 'Group' || $route.name === 'Instant' }">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownGroup" role="button" @click="toggleDropdown('group')" :aria-expanded="isGroupDropdownOpen ? 'true' : 'false'">
               Other Services
             </a>

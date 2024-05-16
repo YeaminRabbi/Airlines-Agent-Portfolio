@@ -20,27 +20,27 @@ const routes = [
     component: AboutView
   },
   {
-    path: '/visa/visit',
+    path: '/visa-visit',
     name: 'Visit',
     component: VisitView
   },
   {
-    path: '/visa/student',
+    path: '/visa-student',
     name: 'Student',
     component: StudentView
   },
   {
-    path: '/visa/medical',
+    path: '/visa-medical',
     name: 'Medical',
     component: MedicalView
   },
   {
-    path: '/package/group-tour',
+    path: '/package-group-tour',
     name: 'Group',
     component: GroupView
   },
   {
-    path: '/package/instant-tour',
+    path: '/package-instant-tour',
     name: 'Instant',
     component: InstantView
   },
